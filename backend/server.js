@@ -8,11 +8,12 @@ dotenv.config();
 const app = express();
 
 // CORS setup
-const corsOptions = {
+app.use(cors({
   origin: 'https://portfolio-h7h8-frontend.vercel.app', // Replace with your frontend URL
-  methods: 'GET,POST,PUT,DELETE,OPTIONS',
-  credentials: true,
-};
+  methods: 'GET,POST,PUT,DELETE',
+  allowedHeaders: 'Content-Type,Authorization'
+}));
+
 
 // Middleware
 app.use(bodyParser.json());
