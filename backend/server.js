@@ -9,7 +9,7 @@ const app = express();
 
 // CORS setup
 const corsOptions = {
-  origin: '*', // Replace with your frontend URL
+  origin: 'https://portfolio-h7h8-frontend.vercel.app', // Replace with your frontend URL
   methods: 'GET,POST,PUT,DELETE,OPTIONS',
   credentials: true,
 };
