@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaTwitter, FaFileAlt, FaBars, FaTimes } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -147,7 +148,7 @@ function App() {
               <FaLinkedin />
             </a>
             <a href="https://x.com/shrutiadhav12" className="text-2xl hover:text-accent transition-colors">
-              <FaTwitter />
+              <FaXTwitter />
             </a>
           </div>
           <p className="text-gray-400">© 2024-2025 Shruti Adhav.</p>
