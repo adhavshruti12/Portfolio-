@@ -156,7 +156,7 @@ function App() {
       </footer>
 
       <a 
-        href="https://drive.google.com/file/d/1Vww361zeCx9qbjs1A1Ogu9Gf6Ym1XuBz/view?usp=sharing" 
+        href="https://drive.google.com/file/d/1jHqaS2jnpCH3w-HzjK2Pn7LiA6nhpctp/view?usp=sharing" 
         download 
         className="cv-button"
       >
