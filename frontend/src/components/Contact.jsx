@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope, FaPhone, FaMapMarkerAlt, FaCopy } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaXTwitter, FaEnvelope, FaPhone, FaMapMarkerAlt, FaCopy } from 'react-icons/fa';
 
 function Contact() {
   const socialLinks = [
