@@ -18,7 +18,7 @@ function Contact() {
     },
     {
       title: "Follow on Twitter",
-      icon: <FaTwitter className="text-4xl" />,
+      icon: <FaXTwitter className="text-4xl" />,
       url: "https://x.com/shrutiadhav12",
       external: true
     }
