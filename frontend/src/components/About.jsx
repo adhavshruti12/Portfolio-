@@ -22,15 +22,27 @@ function About() {
             className="w-full h-full object-cover"
           />
         </div>
+
+        {/* Second Column */}
         <div className="flex flex-col justify-center">
           <h3 className="text-4xl font-bold mb-6 text-white">Innovating with passion</h3>
           <div className="space-y-4 text-gray-300 text-lg">
             <p>
-           A highly motivated and detail-oriented Software Developer with a strong problem-solving mindset and a passion for building scalable and efficient backend systems. With expertise in Java, SQL, Spring Boot, and the MERN stack, I develop robust backend systems and dynamic full-stack solutions. My approach blends problem-solving with clean coding practices to deliver high-quality software.
-          </p>
-             <p>Committed to continuous learning, I explore new technologies to enhance my expertise and stay ahead in the evolving tech landscape. I thrive in collaborative environments, enjoy tackling challenges, and take pride in developing innovative solutions that make an impact.</p>
-             
-      </div>
+              A highly motivated and detail-oriented Software Developer with a strong problem-solving mindset 
+              and a passion for building scalable and efficient backend systems. With expertise in Java, SQL, 
+              Spring Boot, and the MERN stack, I develop robust backend systems and dynamic full-stack solutions. 
+              My approach blends problem-solving with clean coding practices to deliver high-quality software.
+            </p>
+            <p>
+              Committed to continuous learning, I explore new technologies to enhance my expertise and stay ahead 
+              in the evolving tech landscape. I thrive in collaborative environments, enjoy tackling challenges, 
+              and take pride in developing innovative solutions that make an impact.
+            </p>
+          </div>
+        </div> 
+        {/* Missing closing tag added here */}
+      </div> 
+      {/* Closing main container div */}
     </div>
   );
 }
