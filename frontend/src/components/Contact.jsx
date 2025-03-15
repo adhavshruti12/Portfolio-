@@ -1,53 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope, FaPhone, FaMapMarkerAlt, FaCopy } from 'react-icons/fa';
-import axios from 'axios';
 
 function Contact() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
-  const [success, setSuccess] = useState('');
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.id]: e.target.value });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    // Validate the form data
-    if (!formData.name || !formData.email || !formData.message) {
-      setError('All fields are required');
-      return;
-    }
-    setError('');
-    setSuccess('');
-    setLoading(true);
-
-    try {
-      const response = await axios.post('https://portfolio-k94a.vercel.app/api/contact', formData, {
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      });
-      
-      if (response.status === 201) {
-        setSuccess('Message sent successfully!');
-        setFormData({ name: '', email: '', message: '' });
-      }
-    } catch (error) {
-      setError('Failed to send the message. Please try again.');
-      console.error('Error sending message:', error);
-    } finally {
-      setLoading(false);
-    }
-  };
-
   const socialLinks = [
     {
       title: "Connect on LinkedIn",
@@ -147,59 +102,6 @@ function Contact() {
               </span>
             </motion.div>
           ))}
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="relative h-[400px] overflow-hidden rounded-lg">
-            <img
-              src="https://images.unsplash.com/photo-1579547621113-e4bb2a19bdd6"
-              alt="Contact"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="card">
-            <form className="space-y-6" onSubmit={handleSubmit}>
-              <div>
-                <input
-                  type="text"
-                  id="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  placeholder="Enter your name"
-                  className="w-full p-4 bg-[#111] border border-gray-800 rounded-lg focus:outline-none focus:border-accent"
-                />
-              </div>
-              <div>
-                <input
-                  type="email"
-                  id="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  placeholder="Enter your email"
-                  className="w-full p-4 bg-[#111] border border-gray-800 rounded-lg focus:outline-none focus:border-accent"
-                />
-              </div>
-              <div>
-                <textarea
-                  rows="4"
-                  id="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  placeholder="Your message..."
-                  className="w-full p-4 bg-[#111] border border-gray-800 rounded-lg focus:outline-none focus:border-accent"
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                className="w-full bg-gradient-to-r from-[#00d2ff] to-[#3a7bd5] hover:opacity-90 text-white py-4 rounded-lg font-semibold transition-all duration-300"
-                disabled={loading}
-              >
-                {loading ? 'Sending...' : 'Send Message'}
-              </button>
-              {error && <p className="text-red-500 text-center mt-2">{error}</p>}
-              {success && <p className="text-green-500 text-center mt-2">{success}</p>}
-            </form>
-          </div>
         </div>
       </div>
     </div>
