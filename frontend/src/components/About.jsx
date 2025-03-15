@@ -28,10 +28,15 @@ function About() {
           <h3 className="text-3xl font-bold mb-4 text-white">Innovating with passion</h3>
           <div className="space-y-3 text-gray-300 text-lg">
             <p>
-              A highly motivated Software Developer with a problem-solving mindset, passionate about building scalable backend systems and full-stack solutions.
+                   A highly motivated and detail-oriented Software Developer with a strong problem-solving mindset 
+              and a passion for building scalable and efficient backend systems. With expertise in Java, SQL, 
+              Spring Boot, and the MERN stack, I develop robust backend systems and dynamic full-stack solutions. 
+              My approach blends problem-solving with clean coding practices to deliver high-quality software.
             </p>
             <p>
-              Committed to continuous learning, I explore new technologies, embrace challenges, and thrive in collaborative environments to develop innovative solutions that make an impact.
+                Committed to continuous learning, I explore new technologies to enhance my expertise and stay ahead 
+              in the evolving tech landscape. I thrive in collaborative environments, enjoy tackling challenges, 
+              and take pride in developing innovative solutions that make an impact.
             </p>
           </div>
         </div> 
