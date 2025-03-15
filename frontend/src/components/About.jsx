@@ -26,12 +26,10 @@ function About() {
           <h3 className="text-4xl font-bold mb-6 text-white">Innovating with passion</h3>
           <div className="space-y-4 text-gray-300 text-lg">
             <p>
-             I am a dedicated Java developer with a strong foundation in building robust backend systems using Spring Boot, Hibernate, and REST APIs. My expertise lies in designing scalable, efficient, and maintainable applications that adhere to the MVC architecture while ensuring seamless integration with DBMS solutions.
+           A highly motivated and detail-oriented Software Developer with a strong problem-solving mindset and a passion for building scalable and efficient backend systems. With expertise in Java, SQL, Spring Boot, and the MERN stack, I develop robust backend systems and dynamic full-stack solutions. My approach blends problem-solving with clean coding practices to deliver high-quality software.
             </p>
-             <p>With a passion for clean and efficient coding practices, I take pride in solving complex problems and delivering high-quality software solutions. Beyond backend development, I am expanding my skill set to include the MERN stack, exploring how to create dynamic and responsive web applications with React, Node.js, Express, and MongoDB.</p>
-              <p>I thrive in collaborative environments, enjoy tackling challenging projects, and stay committed to continuous learning to keep up with emerging technologies and best practices. Whether it’s developing robust backend systems or crafting engaging full-stack solutions, I am driven by the opportunity to innovate and make an impact through technology.</p>
-          </div>
-        </div>
+             <p>Committed to continuous learning, I explore new technologies to enhance my expertise and stay ahead in the evolving tech landscape. I thrive in collaborative environments, enjoy tackling challenges, and take pride in developing innovative solutions that make an impact.</p>
+             
       </div>
     </div>
   );
