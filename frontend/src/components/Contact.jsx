@@ -29,7 +29,8 @@ function Contact() {
     {
       icon: <FaEnvelope className="text-2xl" />,
       text: "adhavshruti12@gmail.com",
-      copyable: true
+      url: "mailto:adhavshruti12@gmail.com",
+      external: true
     },
     {
       icon: <FaPhone className="text-2xl transform rotate-90" />,
@@ -97,10 +98,15 @@ function Contact() {
               style={{ cursor: info.copyable ? 'pointer' : 'default' }}
             >
               <span className="flex-shrink-0">{info.icon}</span>
-              <span className="text-lg flex items-center">
-                {info.text} {info.copyable && <FaCopy className="ml-2" />}
-                {info.external && <a href={info.url} target="_blank" rel="noopener noreferrer">↗</a>}
-              </span>
+              {info.url ? (
+                <a href={info.url} className="text-lg text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">
+                  {info.text} ↗
+                </a>
+              ) : (
+                <span className="text-lg flex items-center">
+                  {info.text} {info.copyable && <FaCopy className="ml-2" />}
+                </span>
+              )}
             </motion.div>
           ))}
         </div>
