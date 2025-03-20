@@ -10,8 +10,9 @@ function Education() {
       location: "Sangli, India",
       description: "Focused on core computer science concepts, software engineering principles, and modern web technologies. Participated in various technical competitions and workshops.",
       achievements: [
-        "First Class with Distinction",
+        "Current CGPA : 8.2",
         "Core team member of Google Developer Students Club",
+        "Developed and deployed multiple web applications",
        
       ]
     },
@@ -24,6 +25,17 @@ function Education() {
       achievements: [
         "Scored 86.67% in final examinations",
         "Active participant in Science exhibitions"
+      ]
+    },
+     {
+      school: "Maharashtra State Board",
+      degree: "Secondary School Certificate  (SSC)",
+      period: "2018 - 2029",
+      location: "Mumbai, India",
+      description: "Completed SSC with a strong academic foundation.",
+      achievements: [
+        "Scored 84.00% in final examinations",
+        "Active participant in school competitions and events."
       ]
     }
   ];
