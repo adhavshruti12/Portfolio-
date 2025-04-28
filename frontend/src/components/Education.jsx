@@ -10,32 +10,34 @@ function Education() {
       location: "Sangli, India",
       description: "Focused on core computer science concepts, software engineering principles, and modern web technologies. Participated in various technical competitions and workshops.",
       achievements: [
-        "Current CGPA : 8.2",
-        "Core team member of Google Developer Students Club",
+        "Current SGPA : 8.1",
+        "Core team member of Google Developer Students Club (Web developemnt lead)",
+        "Core team member of SPEACK NMCOE (communication club)",
         "Developed and deployed multiple web applications",
        
       ]
     },
     {
-      school: "Maharashtra State Board",
+      school: "Ramnarain Ruia Autonomous College, Mumbai",
       degree: "Higher Secondary Education (HSC)",
       period: "2019 - 2020",
       location: "Mumbai, India",
       description: "Completed HSC with focus on Physics, Chemistry, Biology and Mathematics.",
       achievements: [
         "Scored 86.67% in final examinations",
-        "Active participant in Science exhibitions"
+        "Participated in college drama events"
       ]
     },
      {
-      school: "Maharashtra State Board",
+      school: "Chemnur High School, Mumbai",
       degree: "Secondary School Certificate  (SSC)",
       period: "2018 - 2029",
       location: "Mumbai, India",
       description: "Completed SSC with a strong academic foundation.",
       achievements: [
         "Scored 84.00% in final examinations",
-        "Active participant in school competitions and events."
+        "Active participant in school competitions and events",
+        "Active participant in Science exhibitions"
       ]
     }
   ];
