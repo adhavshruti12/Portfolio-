@@ -3,6 +3,13 @@ import { motion } from 'framer-motion';
 
 function Projects() {
   const projects = [
+       {
+      title: "Coupon System - using Round - Robin algorithm",
+      description: "This project is a Coupon System that allows users to claim coupons and provides an admin panel for managing coupons and viewing claim history. The project consists of a backend built with Node.js and Express, and a frontend built with React.",
+      image: "https://images.unsplash.com/photo-1654573817889-296cad084c97?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      tags: ["React+vite","Tailwand css", "Node.js", "Express", "MongoDB"],
+      link: "https://github.com/adhavshruti12/Round_Robin_Coupon_Distribution.git"
+    },
     {
       title: "Flipkart Clone",
       description: "A clone of the Flipkart e-commerce website built using React and Node.js.",
