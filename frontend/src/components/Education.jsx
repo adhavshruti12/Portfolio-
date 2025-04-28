@@ -18,7 +18,7 @@ function Education() {
       ]
     },
     {
-      school: "Ramnarain Ruia Autonomous College, Mumbai",
+      school: "Ramnarain Ruia Autonomous College",
       degree: "Higher Secondary Education (HSC)",
       period: "2019 - 2020",
       location: "Mumbai, India",
@@ -29,7 +29,7 @@ function Education() {
       ]
     },
      {
-      school: "Chemnur High School, Mumbai",
+      school: "Chemnur High School",
       degree: "Secondary School Certificate  (SSC)",
       period: "2018 - 2029",
       location: "Mumbai, India",
