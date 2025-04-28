@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 function Projects() {
   const projects = [
        {
-      title: "Coupon System - using Round - Robin algorithm",
+      title: "Coupon System using Round - Robin algorithm",
       description: "This project is a Coupon System that allows users to claim coupons and provides an admin panel for managing coupons and viewing claim history. The project consists of a backend built with Node.js and Express, and a frontend built with React.",
       image: "https://plus.unsplash.com/premium_photo-1717717670076-bb200b7e0b14?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       tags: ["React+vite","Tailwand css", "Node.js", "Express", "MongoDB"],
