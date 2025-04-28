@@ -153,7 +153,7 @@ function App() {
           </div>
           <p className="text-gray-400">© 2024-2025 Shruti Adhav.</p>
         </div>
-      </footer>
+        </footer>
 
       <a 
         href="https://drive.google.com/file/d/1jHqaS2jnpCH3w-HzjK2Pn7LiA6nhpctp/view?usp=sharing" 
