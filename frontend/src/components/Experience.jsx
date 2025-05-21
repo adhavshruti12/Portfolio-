@@ -3,6 +3,14 @@ import { motion } from 'framer-motion';
 
 function Experience() {
   const experiences = [
+       {
+      company: "Numetry Technologies",
+      location: "Pune, India",
+      role: "Software Developer Intern",
+      period: "January 2025 – Present",
+      description: "Built full-stack web applications using the MERN stack (MongoDB, Express.js, React, Node.js). Implemented responsive UI components and integrated secure APIs for seamless functionality. Deployed production-ready apps using Vercel, ensuring optimal performance and reliability. Led a team in building a large-scale web application using the MERN stack, ensuring smooth coordination and timely delivery",
+      technologies: ["MongoDB Atlas", "Express.js", "React.js", "Node.js", "REST API", "Vercel", "GitHub"]
+    },
     {
       company: "Sibic Business Incubator",
       location: "Kolhapur, India",
