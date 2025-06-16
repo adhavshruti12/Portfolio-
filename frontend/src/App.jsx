@@ -155,14 +155,14 @@ function App() {
         </div>
         </footer>
 
-      <a 
-        href="https://drive.google.com/file/d/1zM0ng3Kh3U42zdotZmwkw7DLcJdkDKxI/view?usp=sharing" 
-        download 
-        className="cv-button"
-      >
-        <FaFileAlt className="inline-block mr-2" />
-        Download CV
-      </a>
+  <a
+  href="https://drive.google.com/uc?export=download&id=10OxCSh_ycx8z9-1tdGRFzgh8nptYRjdP"
+  className="cv-button"
+>
+  <FaFileAlt className="inline-block mr-2" />
+  Download CV
+</a>
+
     </div>
   );
 }
