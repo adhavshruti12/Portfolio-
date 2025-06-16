@@ -24,7 +24,7 @@ function Experience() {
       location: "Remote",
       role: "Software Developer Intern",
       period: "July 2024 - August 2024",
-      description: "Built responsive and interactive user interfaces using HTML5, CSS3, JavaScript, and Bootstrap for seamless user experiences. Utilized GitHub for version control and collaboration, ensuring efficient project management and code integrity.",
+      description: "Built responsive and interactive user interfaces using HTML5, CSS3, JavaScript for seamless user experiences. Utilized GitHub for version control and collaboration, ensuring efficient project management and code integrity.",
       technologies: ["HTML5", "CSS3","JavaScript","Bootstrap", "GitHub"]
     },
     {
