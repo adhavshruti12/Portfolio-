@@ -29,7 +29,7 @@ function Education() {
       ]
     },
      {
-      school: "Chemnur High School",
+      school: "Chembur High School",
       degree: "Secondary School Certificate  (SSC)",
       period: "2018 - 2029",
       location: "Mumbai, India",
