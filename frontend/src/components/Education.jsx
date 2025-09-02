@@ -10,7 +10,7 @@ function Education() {
       location: "Sangli, India",
       description: "Focused on core computer science concepts, software engineering principles, and modern web technologies. Participated in various technical competitions and workshops.",
       achievements: [
-        "Current SGPA : 8.1",
+        "Overall CGPA : 8.32",
         "Core team member of Google Developer Students Club (Web developemnt lead)",
         "Core team member of SPEACK NMCOE (communication club)",
         "Developed and deployed multiple web applications",
