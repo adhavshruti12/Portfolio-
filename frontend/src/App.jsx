@@ -156,7 +156,7 @@ function App() {
         </footer>
 
   <a
-  href="https://drive.google.com/uc?export=download&id=10OxCSh_ycx8z9-1tdGRFzgh8nptYRjdP"
+  href="https://drive.google.com/uc?export=download&id=1rYypqDRCcS6Pbsl6HqaIOu-TofEznLKI"
   className="cv-button"
 >
   <FaFileAlt className="inline-block mr-2" />
