@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import profileImg from "../images/IMG_20250919_175538.jpg";
 
 function About() {
   return (
