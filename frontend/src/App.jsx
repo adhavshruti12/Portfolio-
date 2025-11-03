@@ -156,8 +156,7 @@ function App() {
         </footer>
 
   <a
-  href="https://drive.google.com/uc?export=download&id=1rYypqDRCcS6Pbsl6HqaIOu-TofEznLKI"
-  className="cv-button"
+  href="https://drive.google.com/file/d/1NJxzIB1qhuS6tnVKEKZQDAmlntNxeRg6/view?usp=sharing"
 >
   <FaFileAlt className="inline-block mr-2" />
   Download CV
