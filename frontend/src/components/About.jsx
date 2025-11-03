@@ -17,7 +17,7 @@ function About() {
       <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="relative h-[450px] overflow-hidden rounded-lg">
           <img
-            src="https://images.unsplash.com/photo-1579547621113-e4bb2a19bdd6"
+            src="https://drive.google.com/file/d/1LnS1a92V60jdI55OF3_vkQrOCOgl6GiG/view?usp=sharing"
             alt="Profile"
             className="w-full h-full object-cover"
           />
